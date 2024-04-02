@@ -9,8 +9,7 @@
             id: xcamera
             play: True
             resolution: root.resolution
-            allow_stretch: True
-            keep_ratio: True
+            fit_mode: "contain"
             center: self.size and proxy.center
             size:
                 (proxy.height, proxy.width) if is_android() \
